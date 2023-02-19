@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to left,#339966	,#339999,#336699	);
+
+}
+  
+
+
+
+.card{
+  max-width: 100rem;
+}
+
+.form-button-container input{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: rgb(209, 209, 209);
+  background: rgba(63,114,76,0.7);
+}
+
+.form-button-container input:hover{
+  background: rgba(56,204,93,0.7);
+  color: rgb(255, 255, 255);
+}
+  
+.alert p{
+  color: rgba(255, 255, 255, 0.532);
+}
+
+.alert a{
+  color: rgb(17, 195, 31);
